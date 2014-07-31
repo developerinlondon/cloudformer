@@ -1,7 +1,6 @@
 # CloudFormer
 
-From [Kunday/cloudformer](https://github.com/kunday/cloudformer). Seems the project was no longer maintained, 
-so forking it so can add some goodies to it and merge in some PRs that were suggested.
+From [Kunday/cloudformer](https://github.com/kunday/cloudformer). 
 
 Cloudformer attempts to simplify AWS Cloudformation stack creation process in ruby projects by providing reusable rake tasks to perform common operations such as apply(create/update), delete, recreate on stack along with validations on templates. Task executions which enforce a stack change will wait until ROLLBACK/COMPLETE or DELETE is signalled on the stack (useful in continuous deployment environments to wait until deployment is successful). Refer [examples section](#example) for more information.
 
